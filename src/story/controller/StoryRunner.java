@@ -1,11 +1,15 @@
 package story.controller;
 
+import story.controller.StoryController;
+
 public class StoryRunner
 {
 
 	public static void main(String[] args)
 	{
-		// TODO Auto-generated method stub
+		StoryController storyController = new StoryController();
+
+		storyController.start();
 
 	}
 
